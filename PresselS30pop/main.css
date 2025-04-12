@@ -1,0 +1,73 @@
+
+* {
+    padding: 0;
+    margin:0;
+}
+
+#imagem_fundo {
+    width: 100%;
+    height: 100%;
+}
+
+
+#section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(imagens/shot_borrado.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: green;
+    padding: 0;
+}
+
+
+#btn {
+    display: inline-block;
+    width: 35vw;
+    height: 75vh;
+    /*background-color: aqua;*/
+    background-image: url(imagens/cookies2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+
+
+h1 {
+    color: red;
+}
+
+/*MOBILE*/
+
+@media (max-width: 768px) {
+    
+    #section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background-image: url(imagens/imagem_mobile\ borrada.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: green;
+        padding: 0;
+    }
+
+
+
+    #btn {
+        display: inline-block;
+        width: 68vw;
+        height: 75vh;
+        /*background-color: aqua;*/
+        background-image: url(imagens/cookies2.png);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+
+  }
